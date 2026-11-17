@@ -1,0 +1,25 @@
+Final folder tree:
+  Archives/
+  Archives\backup.zip
+  Archives\dataset.tar
+  Audio/
+  Audio\song.mp3
+  Code/
+  Code\app.js
+  Code\script.py
+  Documents/
+  Documents\budget.xlsx
+  Documents\notes.txt
+  Documents\report.pdf
+  Documents\report_1.pdf
+  Documents\resume.pdf
+  Images/
+  Images\banner.png
+  Images\logo.PNG
+  Images\photo1.jpg
+  Others/
+  Others\mystery_file
+  Others\setup.exe
+  Videos/
+  Videos\lecture.mkv
+  Videos\trailer.mp4

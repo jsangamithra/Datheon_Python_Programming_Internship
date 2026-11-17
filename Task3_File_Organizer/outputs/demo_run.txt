@@ -1,0 +1,61 @@
+Created demo folder: /home/claude/Datheon_Python_Programming_Internship/Task3_File_Organizer/demo_sandbox
+
+05:14:36 | INFO    | MOVED   app.js -> Code/app.js
+05:14:36 | INFO    | MOVED   backup.zip -> Archives/backup.zip
+05:14:36 | INFO    | MOVED   banner.png -> Images/banner.png
+05:14:36 | INFO    | MOVED   budget.xlsx -> Documents/budget.xlsx
+05:14:36 | INFO    | MOVED   dataset.tar -> Archives/dataset.tar
+05:14:36 | INFO    | MOVED   lecture.mkv -> Videos/lecture.mkv
+05:14:36 | INFO    | MOVED   logo.PNG -> Images/logo.PNG
+05:14:36 | INFO    | MOVED   mystery_file -> Others/mystery_file
+05:14:36 | INFO    | MOVED   notes.txt -> Documents/notes.txt
+05:14:36 | INFO    | MOVED   photo1.jpg -> Images/photo1.jpg
+05:14:36 | INFO    | MOVED   report.pdf -> Documents/report_1.pdf
+05:14:36 | INFO    | MOVED   resume.pdf -> Documents/resume.pdf
+05:14:36 | INFO    | MOVED   script.py -> Code/script.py
+05:14:36 | INFO    | MOVED   setup.exe -> Others/setup.exe
+05:14:36 | INFO    | MOVED   song.mp3 -> Audio/song.mp3
+05:14:36 | INFO    | MOVED   trailer.mp4 -> Videos/trailer.mp4
+05:14:36 | INFO    | ==============================================
+05:14:36 | INFO    | EXECUTION SUMMARY 
+05:14:36 | INFO    | ==============================================
+05:14:36 | INFO    | Category       Files
+05:14:36 | INFO    | ----------------------
+05:14:36 | INFO    | Archives       2
+05:14:36 | INFO    | Audio          1
+05:14:36 | INFO    | Code           2
+05:14:36 | INFO    | Documents      4
+05:14:36 | INFO    | Images         3
+05:14:36 | INFO    | Others         2
+05:14:36 | INFO    | Videos         2
+05:14:36 | INFO    | ----------------------
+05:14:36 | INFO    | Total relocated : 16
+05:14:36 | INFO    | Renamed (collision): 1
+05:14:36 | INFO    | Skipped         : 0
+05:14:36 | INFO    | Errors          : 0
+
+Final folder tree:
+  Archives/
+  Archives/backup.zip
+  Archives/dataset.tar
+  Audio/
+  Audio/song.mp3
+  Code/
+  Code/app.js
+  Code/script.py
+  Documents/
+  Documents/budget.xlsx
+  Documents/notes.txt
+  Documents/report.pdf
+  Documents/report_1.pdf
+  Documents/resume.pdf
+  Images/
+  Images/banner.png
+  Images/logo.PNG
+  Images/photo1.jpg
+  Others/
+  Others/mystery_file
+  Others/setup.exe
+  Videos/
+  Videos/lecture.mkv
+  Videos/trailer.mp4

@@ -1,0 +1,33 @@
+13:25:12 | INFO    | MOVED   app.js -> Code/app.js
+13:25:12 | INFO    | MOVED   backup.zip -> Archives/backup.zip
+13:25:12 | INFO    | MOVED   banner.png -> Images/banner.png
+13:25:12 | INFO    | MOVED   budget.xlsx -> Documents/budget.xlsx
+13:25:12 | INFO    | MOVED   dataset.tar -> Archives/dataset.tar
+13:25:12 | INFO    | MOVED   lecture.mkv -> Videos/lecture.mkv
+13:25:12 | INFO    | MOVED   logo.PNG -> Images/logo.PNG
+13:25:12 | INFO    | MOVED   mystery_file -> Others/mystery_file
+13:25:12 | INFO    | MOVED   notes.txt -> Documents/notes.txt
+13:25:12 | INFO    | MOVED   photo1.jpg -> Images/photo1.jpg
+13:25:12 | INFO    | MOVED   report.pdf -> Documents/report_1.pdf
+13:25:12 | INFO    | MOVED   resume.pdf -> Documents/resume.pdf
+13:25:12 | INFO    | MOVED   script.py -> Code/script.py
+13:25:12 | INFO    | MOVED   setup.exe -> Others/setup.exe
+13:25:12 | INFO    | MOVED   song.mp3 -> Audio/song.mp3
+13:25:12 | INFO    | MOVED   trailer.mp4 -> Videos/trailer.mp4
+13:25:12 | INFO    | ==============================================
+13:25:12 | INFO    | EXECUTION SUMMARY 
+13:25:12 | INFO    | ==============================================
+13:25:12 | INFO    | Category       Files
+13:25:12 | INFO    | ----------------------
+13:25:12 | INFO    | Archives       2
+13:25:12 | INFO    | Audio          1
+13:25:12 | INFO    | Code           2
+13:25:12 | INFO    | Documents      4
+13:25:12 | INFO    | Images         3
+13:25:12 | INFO    | Others         2
+13:25:12 | INFO    | Videos         2
+13:25:12 | INFO    | ----------------------
+13:25:12 | INFO    | Total relocated : 16
+13:25:12 | INFO    | Renamed (collision): 1
+13:25:12 | INFO    | Skipped         : 0
+13:25:12 | INFO    | Errors          : 0
