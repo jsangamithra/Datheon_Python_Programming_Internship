@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
+Task3_File_Organizer/demo_sandbox/
+.DS_Store
