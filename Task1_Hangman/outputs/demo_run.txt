@@ -1,0 +1,246 @@
+>>> DEMO 1: winning game (secret = python), includes duplicate + invalid input
+
+=== HANGMAN ===  Guess the word, one letter at a time.
+
+      +---+
+      |   |
+          |
+          |
+          |
+          |
+    =========
+
+  Word   : _ _ _ _ _ _
+  Wrong  : -   (6 attempt(s) left)
+
+Your guess: p
+  + Nice! 'P' is in the word.
+
+      +---+
+      |   |
+          |
+          |
+          |
+          |
+    =========
+
+  Word   : P _ _ _ _ _
+  Wrong  : -   (6 attempt(s) left)
+
+Your guess: p
+  ! You already guessed 'P'. No penalty - try another.
+
+      +---+
+      |   |
+          |
+          |
+          |
+          |
+    =========
+
+  Word   : P _ _ _ _ _
+  Wrong  : -   (6 attempt(s) left)
+
+Your guess: x
+  - Sorry, 'X' is not in the word.
+
+      +---+
+      |   |
+      O   |
+          |
+          |
+          |
+    =========
+
+  Word   : P _ _ _ _ _
+  Wrong  : X   (5 attempt(s) left)
+
+Your guess: y
+  + Nice! 'Y' is in the word.
+
+      +---+
+      |   |
+      O   |
+          |
+          |
+          |
+    =========
+
+  Word   : P Y _ _ _ _
+  Wrong  : X   (5 attempt(s) left)
+
+Your guess: t
+  + Nice! 'T' is in the word.
+
+      +---+
+      |   |
+      O   |
+          |
+          |
+          |
+    =========
+
+  Word   : P Y T _ _ _
+  Wrong  : X   (5 attempt(s) left)
+
+Your guess: h
+  + Nice! 'H' is in the word.
+
+      +---+
+      |   |
+      O   |
+          |
+          |
+          |
+    =========
+
+  Word   : P Y T H _ _
+  Wrong  : X   (5 attempt(s) left)
+
+Your guess: !
+  ! Please enter exactly ONE letter (a-z).
+
+      +---+
+      |   |
+      O   |
+          |
+          |
+          |
+    =========
+
+  Word   : P Y T H _ _
+  Wrong  : X   (5 attempt(s) left)
+
+Your guess: o
+  + Nice! 'O' is in the word.
+
+      +---+
+      |   |
+      O   |
+          |
+          |
+          |
+    =========
+
+  Word   : P Y T H O _
+  Wrong  : X   (5 attempt(s) left)
+
+Your guess: n
+  + Nice! 'N' is in the word.
+
+      +---+
+      |   |
+      O   |
+          |
+          |
+          |
+    =========
+
+  Word   : P Y T H O N
+  Wrong  : X   (5 attempt(s) left)
+
+*********************************
+   VICTORY!  The word was 'PYTHON'
+   Mistakes made: 1/6
+*********************************
+
+
+>>> DEMO 2: losing game (secret = decorator)
+
+=== HANGMAN ===  Guess the word, one letter at a time.
+
+      +---+
+      |   |
+          |
+          |
+          |
+          |
+    =========
+
+  Word   : _ _ _ _ _ _ _ _ _
+  Wrong  : -   (6 attempt(s) left)
+
+Your guess: z
+  - Sorry, 'Z' is not in the word.
+
+      +---+
+      |   |
+      O   |
+          |
+          |
+          |
+    =========
+
+  Word   : _ _ _ _ _ _ _ _ _
+  Wrong  : Z   (5 attempt(s) left)
+
+Your guess: q
+  - Sorry, 'Q' is not in the word.
+
+      +---+
+      |   |
+      O   |
+      |   |
+          |
+          |
+    =========
+
+  Word   : _ _ _ _ _ _ _ _ _
+  Wrong  : Q Z   (4 attempt(s) left)
+
+Your guess: x
+  - Sorry, 'X' is not in the word.
+
+      +---+
+      |   |
+      O   |
+     /|   |
+          |
+          |
+    =========
+
+  Word   : _ _ _ _ _ _ _ _ _
+  Wrong  : Q X Z   (3 attempt(s) left)
+
+Your guess: w
+  - Sorry, 'W' is not in the word.
+
+      +---+
+      |   |
+      O   |
+     /|\  |
+          |
+          |
+    =========
+
+  Word   : _ _ _ _ _ _ _ _ _
+  Wrong  : Q W X Z   (2 attempt(s) left)
+
+Your guess: v
+  - Sorry, 'V' is not in the word.
+
+      +---+
+      |   |
+      O   |
+     /|\  |
+     /    |
+          |
+    =========
+
+  Word   : _ _ _ _ _ _ _ _ _
+  Wrong  : Q V W X Z   (1 attempt(s) left)
+
+Your guess: u
+  - Sorry, 'U' is not in the word.
+
+      +---+
+      |   |
+      O   |
+     /|\  |
+     / \  |
+          |
+    =========
+
+#################################
+   GAME OVER.  The word was 'DECORATOR'
+#################################
