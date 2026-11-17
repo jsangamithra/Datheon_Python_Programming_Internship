@@ -1,0 +1,13 @@
+test_double_checkout (test_inventory.TestManager.test_double_checkout) ... ok
+test_duplicate_id (test_inventory.TestManager.test_duplicate_id) ... ok
+test_return_without_checkout (test_inventory.TestManager.test_return_without_checkout) ... ok
+test_abstract_cannot_instantiate (test_inventory.TestModels.test_abstract_cannot_instantiate) ... ok
+test_equality_and_hash (test_inventory.TestModels.test_equality_and_hash) ... ok
+test_polymorphic_fees (test_inventory.TestModels.test_polymorphic_fees) ... ok
+test_price_validation (test_inventory.TestModels.test_price_validation) ... ok
+test_private_attribute_is_mangled (test_inventory.TestModels.test_private_attribute_is_mangled) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK

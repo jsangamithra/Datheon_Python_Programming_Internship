@@ -1,0 +1,7 @@
+ID,Type,Title,Status,Borrower,Days,Overdue,Fee,Price
+B001,Book,Clean Code,Available,-,0,0,0.00,42.00
+D002,DigitalMedia,Data Science Audiobook,Available,-,0,0,0.00,14.99
+B002,Book,Fluent Python,Available,-,0,0,0.00,55.00
+M002,Magazine,National Geographic,Available,-,0,0,0.00,7.00
+D001,DigitalMedia,Python Masterclass,Available,-,0,0,0.00,19.99
+M001,Magazine,Wired,Available,-,0,0,0.00,6.50

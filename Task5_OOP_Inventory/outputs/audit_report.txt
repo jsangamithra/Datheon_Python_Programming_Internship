@@ -1,0 +1,62 @@
+=== 1. Catalogue (polymorphic display_metadata) ===
+[B001] Clean Code (Book) - Available
+      Author: Robert C. Martin | Pages: 464
+[D002] Data Science Audiobook (DigitalMedia) - Available
+      Format: MP3 | Size: 320.0 MB
+[B002] Fluent Python (Book) - Available
+      Author: Luciano Ramalho | Pages: 1012
+[M002] National Geographic (Magazine) - Available
+      Issue: Oct 2026 | Publisher: NatGeo Partners
+[D001] Python Masterclass (DigitalMedia) - Available
+      Format: MP4 | Size: 1450.5 MB
+[M001] Wired (Magazine) - Available
+      Issue: Nov 2026 | Publisher: Condé Nast
+
+=== 2. Dunder methods ===
+repr  : Book(item_id='B001', title='Clean Code', price=42.0)
+str   : [B001] Clean Code (Book) - Available
+len(manager) = 6 items
+Book('B001') == Book('B001') copy ? True
+
+=== 3. Checkouts ===
+4 checkouts recorded.
+len(B001) = 30 days borrowed (uses __len__)
+
+=== 4. Error handling & validation ===
+double checkout      -> ItemUnavailableError: 'Clean Code' is already borrowed by Alice
+unknown id           -> InventoryError: unknown item id Z999
+negative price       -> ValueError: price cannot be negative
+string price         -> TypeError: price must be a number
+return not borrowed  -> InventoryError: 'National Geographic' is not checked out
+
+=== 5. Audit report BEFORE returns ===
++------+--------------+------------------------+-----------+----------+------+---------+------+-------+
+| ID   | Type         | Title                  | Status    | Borrower | Days | Overdue | Fee  | Price |
++------+--------------+------------------------+-----------+----------+------+---------+------+-------+
+| B001 | Book         | Clean Code             | Borrowed  | Alice    | 30   | 9       | 4.50 | 42.00 |
+| D002 | DigitalMedia | Data Science Audiobook | Available | -        | 0    | 0       | 0.00 | 14.99 |
+| B002 | Book         | Fluent Python          | Borrowed  | Dave     | 5    | 0       | 0.00 | 55.00 |
+| M002 | Magazine     | National Geographic    | Available | -        | 0    | 0       | 0.00 | 7.00  |
+| D001 | DigitalMedia | Python Masterclass     | Borrowed  | Carol    | 20   | 6       | 8.00 | 19.99 |
+| M001 | Magazine     | Wired                  | Borrowed  | Bob      | 15   | 8       | 2.00 | 6.50  |
++------+--------------+------------------------+-----------+----------+------+---------+------+-------+
+Items: 6 | On loan: 4 | Available: 2 | Outstanding fees: 14.50
+
+=== 6. Returns (fee computed polymorphically) ===
+Returned B001: late fee = 4.50
+Returned M001: late fee = 2.00
+Returned D001: late fee = 8.00
+Returned B002: late fee = 0.00
+
+=== 7. Audit report AFTER returns ===
++------+--------------+------------------------+-----------+----------+------+---------+------+-------+
+| ID   | Type         | Title                  | Status    | Borrower | Days | Overdue | Fee  | Price |
++------+--------------+------------------------+-----------+----------+------+---------+------+-------+
+| B001 | Book         | Clean Code             | Available | -        | 0    | 0       | 0.00 | 42.00 |
+| D002 | DigitalMedia | Data Science Audiobook | Available | -        | 0    | 0       | 0.00 | 14.99 |
+| B002 | Book         | Fluent Python          | Available | -        | 0    | 0       | 0.00 | 55.00 |
+| M002 | Magazine     | National Geographic    | Available | -        | 0    | 0       | 0.00 | 7.00  |
+| D001 | DigitalMedia | Python Masterclass     | Available | -        | 0    | 0       | 0.00 | 19.99 |
+| M001 | Magazine     | Wired                  | Available | -        | 0    | 0       | 0.00 | 6.50  |
++------+--------------+------------------------+-----------+----------+------+---------+------+-------+
+Items: 6 | On loan: 0 | Available: 6 | Outstanding fees: 0.00
