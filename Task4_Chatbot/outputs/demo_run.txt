@@ -1,0 +1,31 @@
+=== TechNest Electronics Assistant (scripted demo) ===
+
+You : 'Hello!'
+Bot : Hello! Welcome to TechNest support. I can help with business hours, shipping, returns, warranty, payments and products.
+
+You : 'What are your opening hours?'
+Bot : We are open Monday to Saturday, 9:00 AM - 8:00 PM. Closed on Sundays.
+
+You : 'Do you ship fast and what is the refund policy?'
+Bot : - Standard delivery takes 3-5 business days. Express delivery (1-2 days) is available for an extra fee. Orders above Rs. 999 ship free.
+- You can return unused items within 14 days of delivery. Refunds are processed to the original payment method within 5-7 business days.
+
+You : 'Is there a warranty on laptops? Can I pay by UPI?'
+Bot : - We accept UPI, credit/debit cards, net banking, and Cash on Delivery. No-cost EMI is available on orders above Rs. 5,000.
+- All products carry a 1-year manufacturer warranty. Keep your invoice - it is required for warranty claims.
+
+You : 'Track my order TN-48213'
+Bot : Order TN-48213 found: status = 'Shipped', expected delivery in 2 business days.
+
+You : '   '
+Bot : Please type something - I'm listening.
+
+You : 'tell me about quantum physics'
+Bot : Sorry, I didn't quite get that. Could you rephrase? You can ask about hours, shipping, returns, warranty, payments or products.
+
+You : 'asdfgh'
+Bot : I'm not sure I understand. Try keywords like 'delivery', 'refund' or 'warranty'.
+
+You : 'Thanks, bye!'
+Bot : Thank you for contacting us. Goodbye!
+

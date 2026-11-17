@@ -1,0 +1,50 @@
+{
+  "business": {
+    "name": "TechNest Electronics",
+    "hours": "Monday to Saturday, 9:00 AM - 8:00 PM. Closed on Sundays.",
+    "phone": "+91-44-5555-0123",
+    "email": "support@technest.example"
+  },
+  "intents": {
+    "greeting": {
+      "keywords": ["hello", "hi", "hey", "good morning", "good evening"],
+      "response": "Hello! Welcome to TechNest support. I can help with business hours, shipping, returns, warranty, payments and products."
+    },
+    "hours": {
+      "keywords": ["hours", "open", "opening", "close", "closing", "timing", "timings", "when are you"],
+      "response": "We are open {hours}"
+    },
+    "shipping": {
+      "keywords": ["shipping", "delivery", "deliver", "ship", "dispatch", "courier"],
+      "response": "Standard delivery takes 3-5 business days. Express delivery (1-2 days) is available for an extra fee. Orders above Rs. 999 ship free."
+    },
+    "returns": {
+      "keywords": ["return", "refund", "exchange", "replace", "replacement", "money back"],
+      "response": "You can return unused items within 14 days of delivery. Refunds are processed to the original payment method within 5-7 business days."
+    },
+    "warranty": {
+      "keywords": ["warranty", "guarantee", "repair", "defect", "defective", "broken"],
+      "response": "All products carry a 1-year manufacturer warranty. Keep your invoice - it is required for warranty claims."
+    },
+    "payment": {
+      "keywords": ["payment", "pay", "upi", "card", "credit", "debit", "cash on delivery", "cod", "emi"],
+      "response": "We accept UPI, credit/debit cards, net banking, and Cash on Delivery. No-cost EMI is available on orders above Rs. 5,000."
+    },
+    "products": {
+      "keywords": ["product", "products", "laptop", "phone", "mobile", "headphone", "headphones", "catalog", "price", "buy"],
+      "response": "We sell laptops, smartphones, headphones and accessories. Visit the Products page for live prices, or tell me which category you want."
+    },
+    "contact": {
+      "keywords": ["contact", "call", "phone", "email", "support", "human", "agent", "talk to"],
+      "response": "You can reach us at {phone} or {email}."
+    },
+    "order_status": {
+      "keywords": ["track", "tracking", "order status", "where is my order", "order"],
+      "response": "To track an order, share your order ID in the format TN-12345 and I will look it up."
+    }
+  },
+  "fallback": [
+    "Sorry, I didn't quite get that. Could you rephrase? You can ask about hours, shipping, returns, warranty, payments or products.",
+    "I'm not sure I understand. Try keywords like 'delivery', 'refund' or 'warranty'."
+  ]
+}
